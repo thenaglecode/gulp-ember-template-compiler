@@ -4,8 +4,15 @@
   "description": "compiles ember js templates for handlebars 2.0.0 compatibility",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "node_modules/.bin/mocha"
   },
+  "author": "thenaglecode",
+  "bin": {
+    "main": "./index.js"
+  },
+  "contributors": [
+    "Jared Nagle"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:thenaglecode/gulp-ember-template-compiler.git"
@@ -13,10 +20,22 @@
   "keywords": [
     "gulpplugin"
   ],
-  "author": "thenaglecode",
-  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
   "bugs": {
     "url": "https://github.com/thenaglecode/gulp-ember-template-compiler/issues"
   },
-  "homepage": "https://github.com/thenaglecode/gulp-ember-template-compiler"
+  "homepage": "https://github.com/thenaglecode/gulp-ember-template-compiler",
+  "devDependencies": {
+    "gulp-util": "^3.0.1",
+    "mocha": "^2.0.1",
+    "through2": "^0.6.3"
+  },
+  "dependencies": {
+    "ember-template-compiler": "^1.8.0"
+  }
 }
