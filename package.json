@@ -1,0 +1,22 @@
+{
+  "name": "gulp-ember-template-compiler",
+  "version": "0.0.0",
+  "description": "compiles ember js templates for handlebars 2.0.0 compatibility",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:thenaglecode/gulp-ember-template-compiler.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "thenaglecode",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thenaglecode/gulp-ember-template-compiler/issues"
+  },
+  "homepage": "https://github.com/thenaglecode/gulp-ember-template-compiler"
+}
